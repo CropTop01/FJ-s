@@ -1,0 +1,192 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: 0;
+}
+
+/* WARN remove this in production */
+/* this is just to individually show all our card on a page */
+.tempStyles{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+/* NOTE maybe us grid layout or slider */
+.CardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.categoryButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryButtons button{
+  background-color: transparent;
+  color: rgba(150, 150, 150, 0.5);
+  /* margin-right: 0.5vw; */
+  padding: 0.2vw;
+  border: none;
+}
+
+/* TODO update hover color of menue category buttoons */
+.categoryButtons button:hover{
+  color: rgba(255, 196, 0, 0.5);
+}
+
+.categoryButtons button.activeCategory {
+  color: rgba(255, 196, 0, 0.5); /* active category color */
+}
+
+
+
+.menuItemCard {
+  padding: 2cqi;
+  /* background-color: rgb(26, 26, 26); */
+  /* border-radius: 1cqi; */
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2vw;
+  position: relative;
+  width: 90vw;
+  height: fit-content;
+}
+
+
+.menuItemCard div span::before {
+  /* content: "--------------------"; */
+  flex-grow: 1;
+  text-align: center;
+  color: #999;
+  background-color: rgb(26, 26, 26);
+}
+
+.menuItemCard img {
+  width: 5vw;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 0px 8px rgba(45, 45, 45, 0.75); */
+  object-fit: cover;
+}
+
+/* text container next to image */
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+
+/* title */
+.menuItemCard div > h4 {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.5cqi;
+  margin: 0;
+  font-size: 2vw;
+}
+
+/* header row for title + price */
+/* price Symbol + price */
+.cardContent > div:first-child {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  font-size: 1.5vw;
+}
+
+/* price */
+.menuItemCard div > span {
+  color: rgba(255, 196, 0, 0.5);
+  font-weight: 800;
+  /* background-color: black; */
+}
+
+/* description below */
+.description {
+  display: block;
+  color: rgba(150, 150, 150, 0.5);
+  margin-top: 0.5rem;
+  text-align: left;
+  width: 100%;
+  font-size: 2vw;
+}
+
+
+.review_rating img{
+    width: 2vw ;
+    aspect-ratio: 1;
+    box-shadow: none;
+}
+
+.extrasSection {
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 1rem;
+}
+
+.extrasSection h3 {
+  color: rgba(255,196,0,0.7);
+  font-size: 2vw;
+  margin-bottom: 1rem;
+}
+
+/* Adjust font-size and img size for smaller devices -> phones */
+@media (max-width: 768px) {
+
+    .menuItemCard{
+        width: 100vw;
+    }
+    /* price Symbol + price */
+    .cardContent > div:first-child {
+        font-size: 4vw;
+    }
+
+    /* title */
+    .menuItemCard div > h4 {
+        font-size: 5vw;
+    }
+
+    /* description below */
+    .description {
+        font-size: 3.5vw;
+    }
+
+    /* stars */
+    .review_rating img{
+        width: 2vw !important;
+
+    }
+
+    .menuItemCard img {
+        width: 6vw;
+        aspect-ratio: 1;
+    } 
+
+    .categoryButtons button{
+      margin-right: 1vw;
+    }
+
+      .extrasSection {
+      margin-top: 1.5rem;
+      padding-top: 0.8rem;
+    }
+
+    .extrasSection h3 {
+      font-size: 4.5vw; /* larger text for smaller screens */
+      text-align: center; /* optional: center it for mobile layout */
+    }
+}
