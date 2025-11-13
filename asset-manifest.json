@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/FJ-s/static/css/main.f4ab34fb.css",
+    "main.js": "/FJ-s/static/js/main.07c8dd69.js",
+    "static/js/453.44fd104a.chunk.js": "/FJ-s/static/js/453.44fd104a.chunk.js",
+    "static/media/About.jpg": "/FJ-s/static/media/About.2426e550c876c3127560.jpg",
+    "static/media/Events-bg.jpg": "/FJ-s/static/media/Events-bg.c3f96fdd06dbb7c2fa31.jpg",
+    "static/media/Events-slider-3.jpg": "/FJ-s/static/media/Events-slider-3.36ebb090ef61ab9ba069.jpg",
+    "static/media/Events-slider-2.jpg": "/FJ-s/static/media/Events-slider-2.54324a65a5ccfcabb341.jpg",
+    "static/media/BackGround.jpg": "/FJ-s/static/media/BackGround.4c0e2e0852b4445199de.jpg",
+    "static/media/Events-slider-1.jpg": "/FJ-s/static/media/Events-slider-1.0aee2bf60b316e56ae12.jpg",
+    "static/media/About-bg.jpg": "/FJ-s/static/media/About-bg.6bb3e9a6f28d3a9f332b.jpg",
+    "static/media/bootstrap-icons.woff?": "/FJ-s/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/gallery-5.jpg": "/FJ-s/static/media/gallery-5.0b06e4efbe1e819ed794.jpg",
+    "static/media/gallery-4.jpg": "/FJ-s/static/media/gallery-4.940648e6fb8f268e028b.jpg",
+    "static/media/gallery-6.jpg": "/FJ-s/static/media/gallery-6.e071ad58cc544ff6ed75.jpg",
+    "static/media/gallery-7.jpg": "/FJ-s/static/media/gallery-7.187aab3b25d8a708124d.jpg",
+    "static/media/bootstrap-icons.woff2?": "/FJ-s/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/gallery-8.jpg": "/FJ-s/static/media/gallery-8.47fcc75d79fb4afa666f.jpg",
+    "static/media/gallery-1.jpg": "/FJ-s/static/media/gallery-1.598b14d604e8d21e0e4e.jpg",
+    "static/media/gallery-3.jpg": "/FJ-s/static/media/gallery-3.646dbc86bff81b993c96.jpg",
+    "static/media/gallery-2.jpg": "/FJ-s/static/media/gallery-2.ddb0b132f388e7496599.jpg",
+    "static/media/Logo.png": "/FJ-s/static/media/Logo.7f50e9662a72ee251030.png",
+    "static/media/img.jpg": "/FJ-s/static/media/img.7f860d3925cae1dfbc2e.jpg",
+    "index.html": "/FJ-s/index.html",
+    "main.f4ab34fb.css.map": "/FJ-s/static/css/main.f4ab34fb.css.map",
+    "main.07c8dd69.js.map": "/FJ-s/static/js/main.07c8dd69.js.map",
+    "453.44fd104a.chunk.js.map": "/FJ-s/static/js/453.44fd104a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4ab34fb.css",
+    "static/js/main.07c8dd69.js"
+  ]
+}
